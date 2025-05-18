@@ -166,10 +166,10 @@ Crea un nuevo usuario y devuelve el estado `HTTP 201`, los datos del usuario rec
   }
 ]
 ```
-##✅ Buenas Prácticas y Patrones de Diseño Implementados
+## ✅ Buenas Prácticas y Patrones de Diseño Implementados
 Este proyecto ha sido desarrollado aplicando buenas prácticas de desarrollo de software y utilizando patrones de diseño reconocidos para garantizar un código limpio, mantenible, escalable y seguro. A continuación se detallan los principales aspectos implementados:
 
-##Buenas Prácticas
+## Buenas Prácticas
 - Separación de responsabilidades siguiendo la arquitectura MVC (Controller, Service, Repository).
 
 - Uso de DTOs (UserRequestDTO, UserResponseDTO) para desacoplar la capa de presentación de la lógica de negocio y del modelo de persistencia.
@@ -184,7 +184,7 @@ Este proyecto ha sido desarrollado aplicando buenas prácticas de desarrollo de 
 
 - Pruebas unitarias para asegurar el correcto funcionamiento de la lógica de negocio y la API.
 
-##Patrones de Diseño
+## Patrones de Diseño
 
 - DTO (Data Transfer Object): encapsula datos entre capas, evitando exponer directamente las entidades del dominio.
 
