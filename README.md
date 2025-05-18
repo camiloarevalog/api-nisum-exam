@@ -15,7 +15,7 @@ en memoria para guardar los usuarios.
 
 1. Clonamos el repositorio:
 
-   `https://github.com/camiloarevalog/exam-api-nisum`
+   `https://github.com/camiloarevalog/api-nisum-exam`
 
 2. Importar el proyecto en el IDE desde el archivo
 
@@ -197,7 +197,7 @@ Este proyecto ha sido desarrollado aplicando buenas prácticas de desarrollo de 
 ## Diagrama de la solución
 
 En el siguiente diagrama se muestra la estructura del proyecto y la arquitectura de la API:
-
+##Diagrama Solución
 ![diagramaSolucion](https://github.com/camiloarevalog/exam-api-nisum/assets/29645816/fd146c12-5605-4a2d-9b2d-d1f286d46299)
-![Aquitectura](https://github.com/camiloarevalog/exam-api-nisum/assets/29645816/1763a488-edcf-441c-8a3e-5b3696fa39b1)
-
+##Arquitectura
+![ArbolProyecto](https://github.com/user-attachments/assets/8fd24343-8ea0-4ddb-90a3-d6427a7857d0)
