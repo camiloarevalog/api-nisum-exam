@@ -197,5 +197,6 @@ Este proyecto ha sido desarrollado aplicando buenas prácticas de desarrollo de 
 ## Diagrama de la solución
 
 En el siguiente diagrama se muestra la estructura del proyecto y la arquitectura de la API:
-![diagramaSolucion](https://github.com/camiloarevalog/exam-api-nisum/assets/29645816/fd146c12-5605-4a2d-9b2d-d1f286d46299)
-![ArbolProyecto](https://github.com/user-attachments/assets/8fd24343-8ea0-4ddb-90a3-d6427a7857d0)
+![DiagramaSolucion](https://github.com/user-attachments/assets/44879e4b-e356-4508-9437-744640d5b754)
+![ArbolProyecto](https://github.com/user-attachments/assets/7c822238-4493-446e-8a0f-ea679650e9c6)
+
