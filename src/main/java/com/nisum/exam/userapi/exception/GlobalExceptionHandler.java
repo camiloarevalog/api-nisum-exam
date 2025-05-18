@@ -48,25 +48,34 @@ public class GlobalExceptionHandler {
         response.put("mensaje", "Error interno del servidor");
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(response);
     }
-
+    /**
+     * Captura  excepción para cuando el correo existe.
+     */
     @ExceptionHandler(EmailAlreadyExistsException.class)
     public ResponseEntity<Map<String, String>> handleEmailAlreadyExists(EmailAlreadyExistsException ex) {
         return ResponseEntity.status(HttpStatus.CONFLICT)
                 .body(Map.of("mensaje", ex.getMessage()));
     }
-
+    /**
+     * Captura  excepción para cuando la contraseña no cumple con el formato.
+     */
     @ExceptionHandler(InvalidPasswordException.class)
     public ResponseEntity<Map<String, String>> handleInvalidPassword(InvalidPasswordException ex) {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                 .body(Map.of("mensaje", ex.getMessage()));
     }
 
+    /**
+     * Captura excepción para cuando el usuario no existe.
+     */
     @ExceptionHandler(UserNotFoundException.class)
     public ResponseEntity<Map<String, String>> handleUserNotFound(UserNotFoundException ex) {
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
                 .body(Map.of("mensaje", ex.getMessage()));
     }
-
+    /**
+     * Captura excepción para cuando el email es invalido.
+     */
     @ExceptionHandler(InvalidEmailException.class)
     public ResponseEntity<Map<String, String>> handleInvalidEmail(InvalidEmailException ex) {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
