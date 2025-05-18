@@ -19,7 +19,7 @@ en memoria para guardar los usuarios.
 
 2. Importar el proyecto en el IDE desde el archivo
 
-   `/exam-api-nisum/pom.xml`
+   `/api-nisum-exam/pom.xml`
 
 3. Compilar y empaquetar el proyecto con Maven, o desde el IDE:
 
